@@ -1,7 +1,5 @@
 # Project to detect the type of Disease on a Tomato plant using its leaf 
 
-![image](https://user-images.githubusercontent.com/64016811/212757334-7ef5b216-b84e-4e3e-b324-cd5a18b725cb.png)
-
 
 ## Description : 
 * ### Used Transfer Learning to create a model using Tensorflow.
