@@ -6,7 +6,7 @@ import random
 
 # Configure the app
 st.set_page_config(
-    page_title = 'Tomato Leaf Disease Predictor',
+    page_title = 'Tomato Leaf Disease Detector',
     page_icon = ":tomato:",
     
     initial_sidebar_state = 'auto'
@@ -49,13 +49,13 @@ def load_image(image_file):
 
 def main():
     with st.sidebar:
-        st.header("TOMATONIC")
+        st.header("TDD (AgTech Projects Showcase)")
         
         st.image('./img2.jpg')
     
 
 
-    st.title("Tomato Leaf Disease Prediction")
+    st.title("Tomato Leaf Disease Detector")
     st.subheader("Please upload the Tomato leaf image to predict ")
     image_file=st.file_uploader("Upload Image",type=["png","jpg","jpeg"])
 
